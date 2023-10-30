@@ -6,7 +6,7 @@ import PauseModal from './PauseModal'
 export default function Header() {
     return (
         <header className='header'>
-            <Link to={'/'} className='header__icon'>
+            <Link to={'/tic-tac-test/'} className='header__icon'>
                 <BsFillArrowLeftCircleFill className='' />
             </Link>
             <h1 className='text-2xl font-bold xl:text-5xl dark:text-white'>

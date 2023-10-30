@@ -23,7 +23,7 @@ export default function Landing() {
             </span>
             <div className='flex flex-col gap-5'>
                 <ApologyModal />
-                <Link to={'/multiplayer'} className='group'>
+                <Link to={'/tic-tac-test/multiplayer'} className='group'>
                     <Button
                         customClass={
                             'bg-blue-600 text-white font-light group-hover:bg-blue-800 dark:bg-blue-800 dark:group-hover:bg-blue-600'
