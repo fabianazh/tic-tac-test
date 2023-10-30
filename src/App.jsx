@@ -6,8 +6,8 @@ export default function App() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path='/' element={<Landing />} />
-                <Route path='/multiplayer' element={<Game />} />
+                <Route path='/tic-tac-test/' element={<Landing />} />
+                <Route path='/tic-tac-test/multiplayer' element={<Game />} />
             </Routes>
         </BrowserRouter>
     )
