@@ -9,7 +9,7 @@ export default function Header() {
             <Link to={'/tic-tac-test/'} className='header__icon'>
                 <BsFillArrowLeftCircleFill className='' />
             </Link>
-            <h1 className='text-2xl font-bold xl:text-5xl dark:text-white'>
+            <h1 className='text-2xl font-bold xl:text-3xl dark:text-white'>
                 <span>TicTacTest</span>
             </h1>
             <PauseModal />

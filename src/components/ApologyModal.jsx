@@ -19,7 +19,7 @@ export default function ApologyModal() {
         <>
             <Button
                 onClick={onOpen}
-                className='text-white font-light dark:bg-white w-full transition-all duration-300 rounded-md xl:text-lg shadow-md py-2 xl:py-7 px-4 text-center'
+                className='text-white font-light dark:bg-white w-full transition-all duration-300 rounded-md xl:text-lg shadow-md py-2 px-4 text-center'
             >
                 Single Player
             </Button>

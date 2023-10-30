@@ -31,7 +31,7 @@ export default function Game() {
         <>
             <Header />
             <section className='w-screen h-screen grid__center'>
-                <div className='w-10/12 xl:w-[27%] grid__center gap-y-7 mt-10'>
+                <div className='w-10/12 xl:w-[27%] grid__center gap-y-7 mt-10 xl:mt-14'>
                     <Indicator
                         turn={
                             xIsNext ? (

@@ -9,14 +9,14 @@ export default function Indicator({ turn, squares }) {
         content = (
             <>
                 <span>Winner :</span>
-                <BiX className='inline-block text-2xl xl:text-3xl text-blue-600' />
+                <BiX className='inline-block text-2xl text-blue-600 -translate-y-[1px] xl:text-3xl' />
             </>
         )
     } else if (winner === 'O') {
         content = (
             <>
                 <span>Winner :</span>
-                <BiRadioCircle className='inline-block text-2xl xl:text-3xl text-red-600' />
+                <BiRadioCircle className='inline-block text-2xl text-red-600 -translate-y-[1px] xl:text-3xl' />
             </>
         )
     } else if (winner === 'Draw') {
@@ -31,10 +31,8 @@ export default function Indicator({ turn, squares }) {
     }
 
     return (
-        <div className='px-7 shadow-md dark:bg-dark dark:border dark:text-white z-0 py-3 grid__center rounded-lg bg-white'>
-            <span className='font-semibold xl:text-lg inline-block'>
-                {content}
-            </span>
+        <div className='px-7 shadow-md dark:bg-dark dark:border dark:text-white z-0 py-3 xl:py-2 grid__center rounded-lg bg-white'>
+            <span className='font-semibold inline-block'>{content}</span>
         </div>
     )
 }
